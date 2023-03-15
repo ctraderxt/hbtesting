@@ -1,0 +1,250 @@
+2023-03-10 13:14:41,547 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:14:41,570 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:14:41,592 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:14:42,003 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:14:42,172 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for BTC-USDT. 1/1 completed.
+2023-03-10 13:14:42,207 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:14:43,001 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:14:45,006 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19922.3500000000
+2023-03-10 13:14:45,425 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:14:46,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19923.5250000000
+2023-03-10 13:14:47,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19923.8200000000
+2023-03-10 13:14:48,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19926.6250000000
+2023-03-10 13:14:49,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19926.2200000000
+2023-03-10 13:14:50,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19925.7350000000
+2023-03-10 13:14:51,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19927.5050000000
+2023-03-10 13:14:52,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19928.6100000000
+2023-03-10 13:14:53,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19929.7200000000
+2023-03-10 13:14:54,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19928.0150000000
+2023-03-10 13:14:55,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19928.0250000000
+2023-03-10 13:14:56,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19928.3050000000
+2023-03-10 13:14:57,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19926.8450000000
+2023-03-10 13:14:58,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19927.0500000000
+2023-03-10 13:14:59,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19927.2300000000
+2023-03-10 13:15:00,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19925.9350000000
+2023-03-10 13:15:01,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19927.2400000000
+2023-03-10 13:15:02,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19926.7650000000
+2023-03-10 13:15:03,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19926.7500000000
+2023-03-10 13:15:04,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19926.8450000000
+2023-03-10 13:15:05,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19929.0250000000
+2023-03-10 13:15:06,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19929.3400000000
+2023-03-10 13:15:07,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19930.7750000000
+2023-03-10 13:15:08,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19929.7500000000
+2023-03-10 13:15:09,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19928.0950000000
+2023-03-10 13:15:10,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19928.2500000000
+2023-03-10 13:15:11,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19927.4350000000
+2023-03-10 13:15:12,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19926.3800000000
+2023-03-10 13:15:13,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19925.0250000000
+2023-03-10 13:15:14,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19921.8600000000
+2023-03-10 13:15:15,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19922.8650000000
+2023-03-10 13:15:16,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19921.7150000000
+2023-03-10 13:15:17,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19922.0700000000
+2023-03-10 13:15:18,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19921.0500000000
+2023-03-10 13:15:19,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19920.3200000000
+2023-03-10 13:15:20,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19917.0000000000
+2023-03-10 13:15:20,069 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:20:41,344 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:20:41,346 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:20:41,347 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:20:42,002 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:20:42,143 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:20:42,360 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for BTC-USDT. 1/1 completed.
+2023-03-10 13:20:43,001 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:20:44,611 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:20:45,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19895.4550000000
+2023-03-10 13:20:46,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19897.9750000000
+2023-03-10 13:20:47,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19898.9500000000
+2023-03-10 13:20:48,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19899.0550000000
+2023-03-10 13:20:49,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19895.3900000000
+2023-03-10 13:20:50,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $19896.8350000000
+2023-03-10 13:20:50,818 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:32:27,914 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:32:27,916 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:32:27,934 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:32:27,934 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:32:28,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:32:28,001 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:32:28,443 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for BTC-USDT. 1/1 completed.
+2023-03-10 13:32:28,516 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:32:28,664 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-10 13:32:28,815 - 1 - hummingbot.connector.exchange.kucoin.kucoin_api_order_book_data_source.KucoinAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:32:29,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:32:29,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:32:30,256 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:32:31,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20052.9050000000
+2023-03-10 13:32:31,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1404.5050000000
+2023-03-10 13:32:32,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20060.6700000000
+2023-03-10 13:32:32,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1404.8200000000
+2023-03-10 13:32:33,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20065.2250000000
+2023-03-10 13:32:33,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1405.7050000000
+2023-03-10 13:32:34,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20060.4850000000
+2023-03-10 13:32:34,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1405.5550000000
+2023-03-10 13:32:35,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20078.0650000000
+2023-03-10 13:32:35,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1406.7350000000
+2023-03-10 13:32:36,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20077.2950000000
+2023-03-10 13:32:36,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1406.3900000000
+2023-03-10 13:32:37,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20065.5500000000
+2023-03-10 13:32:37,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1406.0950000000
+2023-03-10 13:32:38,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20059.3600000000
+2023-03-10 13:32:38,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1405.8000000000
+2023-03-10 13:32:39,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20051.8050000000
+2023-03-10 13:32:39,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1405.1350000000
+2023-03-10 13:32:40,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20049.1050000000
+2023-03-10 13:32:40,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1405.0600000000
+2023-03-10 13:32:41,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20054.7750000000
+2023-03-10 13:32:41,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1404.8550000000
+2023-03-10 13:32:42,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20042.7200000000
+2023-03-10 13:32:42,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1404.2050000000
+2023-03-10 13:32:43,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20038.0500000000
+2023-03-10 13:32:43,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1404.0550000000
+2023-03-10 13:32:44,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20035.2700000000
+2023-03-10 13:32:44,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1403.7250000000
+2023-03-10 13:32:45,012 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20029.1450000000
+2023-03-10 13:32:45,013 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1403.6250000000
+2023-03-10 13:32:46,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20027.1850000000
+2023-03-10 13:32:46,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1403.4150000000
+2023-03-10 13:32:47,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20026.3150000000
+2023-03-10 13:32:47,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1403.0150000000
+2023-03-10 13:32:48,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20035.9850000000
+2023-03-10 13:32:48,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1404.1950000000
+2023-03-10 13:32:48,842 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:33:36,074 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:33:36,076 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:33:36,094 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:33:36,094 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:33:36,519 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for BTC-USDT. 1/1 completed.
+2023-03-10 13:33:36,608 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-10 13:33:36,710 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:33:36,770 - 1 - hummingbot.connector.exchange.kucoin.kucoin_api_order_book_data_source.KucoinAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:33:37,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:33:37,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:33:38,866 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:33:39,001 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script.py", line 17, in on_tick
+    btc_msg = f"Bitcoin price: ${btc_price}"
+NameError: name 'btc_price' is not defined
+2023-03-10 13:33:40,000 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script.py", line 17, in on_tick
+    btc_msg = f"Bitcoin price: ${btc_price}"
+NameError: name 'btc_price' is not defined
+2023-03-10 13:33:41,001 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script.py", line 17, in on_tick
+    btc_msg = f"Bitcoin price: ${btc_price}"
+NameError: name 'btc_price' is not defined
+2023-03-10 13:33:42,001 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script.py", line 17, in on_tick
+    btc_msg = f"Bitcoin price: ${btc_price}"
+NameError: name 'btc_price' is not defined
+2023-03-10 13:33:42,634 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:34:36,780 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:34:36,782 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:34:36,783 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:34:37,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:34:37,277 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-10 13:34:37,445 - 1 - hummingbot.connector.exchange.kucoin.kucoin_api_order_book_data_source.KucoinAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:34:38,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:34:39,032 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:34:40,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1410.4700000000
+2023-03-10 13:34:41,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1410.4500000000
+2023-03-10 13:34:42,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1410.8400000000
+2023-03-10 13:34:43,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1410.9600000000
+2023-03-10 13:34:44,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1410.9250000000
+2023-03-10 13:34:45,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1411.4950000000
+2023-03-10 13:34:46,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1411.2950000000
+2023-03-10 13:34:46,126 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:39:54,169 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:39:54,170 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:39:54,188 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:39:54,791 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-10 13:39:55,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:39:55,019 - 1 - hummingbot.connector.exchange.kucoin.kucoin_api_order_book_data_source.KucoinAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:39:56,981 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:39:57,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1406.7450000000
+2023-03-10 13:39:58,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1406.6150000000
+2023-03-10 13:39:59,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1406.6150000000
+2023-03-10 13:39:59,853 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:40:29,526 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:40:29,527 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:40:29,540 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:40:29,970 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-10 13:40:30,001 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:40:30,161 - 1 - hummingbot.connector.exchange.kucoin.kucoin_api_order_book_data_source.KucoinAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:40:31,413 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:40:32,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1409.5450000000
+2023-03-10 13:40:33,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1409.6750000000
+2023-03-10 13:40:34,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1409.9050000000
+2023-03-10 13:40:35,002 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1409.9050000000
+2023-03-10 13:40:36,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1409.9250000000
+2023-03-10 13:40:37,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $1409.6050000000
+2023-03-10 13:40:37,673 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:41:22,520 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:41:22,521 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:41:22,535 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:41:22,971 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-10 13:41:23,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:41:23,078 - 1 - hummingbot.connector.exchange.kucoin.kucoin_api_order_book_data_source.KucoinAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:41:24,830 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:41:25,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.4650000000
+2023-03-10 13:41:26,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.4450000000
+2023-03-10 13:41:27,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.4450000000
+2023-03-10 13:41:28,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.6150000000
+2023-03-10 13:41:29,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.0650000000
+2023-03-10 13:41:30,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.5750000000
+2023-03-10 13:41:31,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.3500000000
+2023-03-10 13:41:31,434 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-10 13:41:47,070 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-10 13:41:47,073 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-10 13:41:47,086 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:41:47,086 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:41:47,481 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-10 13:41:47,558 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for BTC-USDT. 1/1 completed.
+2023-03-10 13:41:47,722 - 1 - hummingbot.connector.exchange.kucoin.kucoin_api_order_book_data_source.KucoinAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:41:47,738 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-10 13:41:48,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-10 13:41:48,001 - 1 - hummingbot.strategy.script_strategy_base - WARNING - kucoin is not ready. Please wait...
+2023-03-10 13:41:48,575 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-10 13:41:50,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20073.0300000000
+2023-03-10 13:41:50,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.8350000000
+2023-03-10 13:41:51,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20073.6150000000
+2023-03-10 13:41:51,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1412.1700000000
+2023-03-10 13:41:52,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20081.0550000000
+2023-03-10 13:41:52,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1412.6450000000
+2023-03-10 13:41:53,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20081.4650000000
+2023-03-10 13:41:53,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1412.6450000000
+2023-03-10 13:41:54,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20078.3450000000
+2023-03-10 13:41:54,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1412.5650000000
+2023-03-10 13:41:55,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20073.9900000000
+2023-03-10 13:41:55,002 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.7850000000
+2023-03-10 13:41:56,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20072.5350000000
+2023-03-10 13:41:56,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1411.8050000000
+2023-03-10 13:41:57,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Bitcoin price: $20074.1750000000
+2023-03-10 13:41:57,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - ETH price: $1412.0050000000
+2023-03-10 13:41:57,679 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.

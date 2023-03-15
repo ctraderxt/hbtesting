@@ -1,0 +1,185 @@
+2023-03-15 08:29:25,516 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-15 08:29:25,519 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-15 08:29:25,546 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-15 08:29:26,071 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-15 08:29:26,162 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-15 08:29:26,479 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-15 08:29:27,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-15 08:29:29,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1685.651039999999987926138090 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 08:29:29,002 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1712.838960000000012073861910 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 08:29:29,094 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868969.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1685.6510000000", "order_id": "buy://ETH-USDT/4155ff616ea6671ce4e2fd2abb", "creation_timestamp": 1678868969.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:29:29,127 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868969.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1712.8390000000", "order_id": "sell://ETH-USDT/f4a2973d0596b86baa6c19f4c9", "creation_timestamp": 1678868969.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:29:30,044 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-15 08:29:44,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/4155ff616ea6671ce4e2fd2abb. [clock=2023-03-15 08:29:44+00:00]
+2023-03-15 08:29:44,037 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868984.0, "order_id": "buy://ETH-USDT/4155ff616ea6671ce4e2fd2abb", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:29:44,037 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/f4a2973d0596b86baa6c19f4c9. [clock=2023-03-15 08:29:44+00:00]
+2023-03-15 08:29:44,071 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868984.0, "order_id": "sell://ETH-USDT/f4a2973d0596b86baa6c19f4c9", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:29:44,072 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1685.303839999999987928624989 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 08:29:44,072 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1712.486160000000012071375011 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 08:29:44,126 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868984.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1685.3040000000", "order_id": "buy://ETH-USDT/4f75760ea0bff3ccc7aa7b33c8", "creation_timestamp": 1678868984.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:29:44,159 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868984.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1712.4860000000", "order_id": "sell://ETH-USDT/2f532ffdd284f998477f6254ac", "creation_timestamp": 1678868984.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:29:50,191 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-15 08:29:50,236 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868990.0, "order_id": "buy://ETH-USDT/4f75760ea0bff3ccc7aa7b33c8", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:29:50,268 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678868990.0, "order_id": "sell://ETH-USDT/2f532ffdd284f998477f6254ac", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 08:30:46,929 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-15 08:30:46,931 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-15 08:30:46,932 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-15 08:30:47,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-15 08:30:47,559 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-15 08:30:47,587 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-15 08:30:48,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-15 08:30:49,776 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-15 08:30:50,000 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script_2.py", line 30, in on_tick
+    self.place_orders(proposal_adjusted1)
+NameError: name 'proposal_adjusted1' is not defined
+2023-03-15 08:30:51,001 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script_2.py", line 30, in on_tick
+    self.place_orders(proposal_adjusted1)
+NameError: name 'proposal_adjusted1' is not defined
+2023-03-15 08:30:52,001 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script_2.py", line 30, in on_tick
+    self.place_orders(proposal_adjusted1)
+NameError: name 'proposal_adjusted1' is not defined
+2023-03-15 08:30:53,001 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script_2.py", line 30, in on_tick
+    self.place_orders(proposal_adjusted1)
+NameError: name 'proposal_adjusted1' is not defined
+2023-03-15 08:30:54,001 - 1 - hummingbot.core.clock - ERROR - Unexpected error running clock tick.
+Traceback (most recent call last):
+  File "hummingbot/core/clock.pyx", line 119, in hummingbot.core.clock.Clock.run_til
+    child_iterator.c_tick(self._current_tick)
+  File "hummingbot/strategy/strategy_py_base.pyx", line 44, in hummingbot.strategy.strategy_py_base.StrategyPyBase.c_tick
+    self.tick(timestamp)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 86, in tick
+    self.on_tick()
+  File "/home/hummingbot/scripts/quickstart_script_2.py", line 30, in on_tick
+    self.place_orders(proposal_adjusted1)
+NameError: name 'proposal_adjusted1' is not defined
+2023-03-15 08:30:54,478 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-15 09:50:55,533 - 1 - hummingbot.client.hummingbot_application - INFO - Creating the clock with tick size: 1.0
+2023-03-15 09:50:55,689 - 1 - hummingbot.client.hummingbot_application - INFO - start command initiated.
+2023-03-15 09:50:55,708 - 1 - hummingbot.core.network_iterator - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-15 09:50:56,004 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-15 09:50:56,647 - 1 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2023-03-15 09:50:56,740 - 1 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for ETH-USDT. 1/1 completed.
+2023-03-15 09:50:57,000 - 1 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2023-03-15 09:50:58,602 - 1 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2023-03-15 09:50:59,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1675.929439999999987995771278 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:50:59,020 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1702.960560000000012004228722 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:50:59,095 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873859.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1675.9290000000", "order_id": "buy://ETH-USDT/81074a1ed4eca6579a1f692ed3", "creation_timestamp": 1678873859.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:50:59,129 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873859.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1702.9610000000", "order_id": "sell://ETH-USDT/2b38096c74fc225e40b5cf06ea", "creation_timestamp": 1678873859.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:14,128 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/81074a1ed4eca6579a1f692ed3. [clock=2023-03-15 09:51:14+00:00]
+2023-03-15 09:51:14,165 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873874.0, "order_id": "buy://ETH-USDT/81074a1ed4eca6579a1f692ed3", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:14,165 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/2b38096c74fc225e40b5cf06ea. [clock=2023-03-15 09:51:14+00:00]
+2023-03-15 09:51:14,205 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873874.0, "order_id": "sell://ETH-USDT/2b38096c74fc225e40b5cf06ea", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:14,206 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1675.344159999999987999963480 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:14,206 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1702.365840000000012000036520 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:14,304 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873874.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1675.3440000000", "order_id": "buy://ETH-USDT/4f53dea12a1f6b665a922150a2", "creation_timestamp": 1678873874.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:14,336 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873874.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1702.3660000000", "order_id": "sell://ETH-USDT/85128fd2a1c5326d7f79589625", "creation_timestamp": 1678873874.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:29,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/4f53dea12a1f6b665a922150a2. [clock=2023-03-15 09:51:29+00:00]
+2023-03-15 09:51:29,037 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873889.0, "order_id": "buy://ETH-USDT/4f53dea12a1f6b665a922150a2", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:29,037 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/85128fd2a1c5326d7f79589625. [clock=2023-03-15 09:51:29+00:00]
+2023-03-15 09:51:29,079 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873889.0, "order_id": "sell://ETH-USDT/85128fd2a1c5326d7f79589625", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:29,080 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1675.552479999999987998471340 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:29,080 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1702.577520000000012001528660 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:29,155 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873889.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1675.5520000000", "order_id": "buy://ETH-USDT/98fb2dee5a04c9a40e65504f61", "creation_timestamp": 1678873889.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:29,189 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873889.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1702.5780000000", "order_id": "sell://ETH-USDT/5de6c745577cdf32f1b9c19bb8", "creation_timestamp": 1678873889.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:44,000 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/98fb2dee5a04c9a40e65504f61. [clock=2023-03-15 09:51:44+00:00]
+2023-03-15 09:51:44,034 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873904.0, "order_id": "buy://ETH-USDT/98fb2dee5a04c9a40e65504f61", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:44,035 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/5de6c745577cdf32f1b9c19bb8. [clock=2023-03-15 09:51:44+00:00]
+2023-03-15 09:51:44,070 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873904.0, "order_id": "sell://ETH-USDT/5de6c745577cdf32f1b9c19bb8", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:44,070 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1676.346079999999987992786998 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:44,071 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1703.383920000000012007213002 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:44,131 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873904.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1676.3460000000", "order_id": "buy://ETH-USDT/c6685e5d441bb0c5a73e4462d4", "creation_timestamp": 1678873904.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:44,169 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873904.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1703.3840000000", "order_id": "sell://ETH-USDT/a7217f4a6336a632df38ecdbb8", "creation_timestamp": 1678873904.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:59,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/c6685e5d441bb0c5a73e4462d4. [clock=2023-03-15 09:51:59+00:00]
+2023-03-15 09:51:59,038 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873919.0, "order_id": "buy://ETH-USDT/c6685e5d441bb0c5a73e4462d4", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:59,038 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/a7217f4a6336a632df38ecdbb8. [clock=2023-03-15 09:51:59+00:00]
+2023-03-15 09:51:59,072 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873919.0, "order_id": "sell://ETH-USDT/a7217f4a6336a632df38ecdbb8", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:59,073 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1676.842079999999987989234285 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:59,073 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1703.887920000000012010765715 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:51:59,136 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873919.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1676.8420000000", "order_id": "buy://ETH-USDT/1308027a9cc19f008fa2879e42", "creation_timestamp": 1678873919.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:51:59,173 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873919.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1703.8880000000", "order_id": "sell://ETH-USDT/730c1d1bd02d17fda9ec15006e", "creation_timestamp": 1678873919.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:14,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/1308027a9cc19f008fa2879e42. [clock=2023-03-15 09:52:14+00:00]
+2023-03-15 09:52:14,037 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873934.0, "order_id": "buy://ETH-USDT/1308027a9cc19f008fa2879e42", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:14,037 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/730c1d1bd02d17fda9ec15006e. [clock=2023-03-15 09:52:14+00:00]
+2023-03-15 09:52:14,070 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873934.0, "order_id": "sell://ETH-USDT/730c1d1bd02d17fda9ec15006e", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:14,070 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1677.318239999999987985823680 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:52:14,071 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1704.371760000000012014176320 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:52:14,126 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873934.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1677.3180000000", "order_id": "buy://ETH-USDT/f1932693bf7537fd57792d9061", "creation_timestamp": 1678873934.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:14,169 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873934.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1704.3720000000", "order_id": "sell://ETH-USDT/9985e2691c04213154eacc17ca", "creation_timestamp": 1678873934.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:29,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/f1932693bf7537fd57792d9061. [clock=2023-03-15 09:52:29+00:00]
+2023-03-15 09:52:29,035 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873949.0, "order_id": "buy://ETH-USDT/f1932693bf7537fd57792d9061", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:29,036 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/9985e2691c04213154eacc17ca. [clock=2023-03-15 09:52:29+00:00]
+2023-03-15 09:52:29,071 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873949.0, "order_id": "sell://ETH-USDT/9985e2691c04213154eacc17ca", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:29,071 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1676.435359999999987992147510 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:52:29,072 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1703.474640000000012007852490 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:52:29,124 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873949.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1676.4350000000", "order_id": "buy://ETH-USDT/457e4183db51f663575438990e", "creation_timestamp": 1678873949.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:29,163 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873949.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1703.4750000000", "order_id": "sell://ETH-USDT/401a5d66c956fa261593f5dd31", "creation_timestamp": 1678873949.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:44,001 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order buy://ETH-USDT/457e4183db51f663575438990e. [clock=2023-03-15 09:52:44+00:00]
+2023-03-15 09:52:44,038 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873964.0, "order_id": "buy://ETH-USDT/457e4183db51f663575438990e", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:44,038 - 1 - hummingbot.strategy.script_strategy_base - INFO - (ETH-USDT) Canceling the limit order sell://ETH-USDT/401a5d66c956fa261593f5dd31. [clock=2023-03-15 09:52:44+00:00]
+2023-03-15 09:52:44,074 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873964.0, "order_id": "sell://ETH-USDT/401a5d66c956fa261593f5dd31", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:44,074 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT buy order: price: 1677.248799999999987986321059 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:52:44,075 - 1 - hummingbot.strategy.script_strategy_base - INFO - Creating ETH-USDT sell order: price: 1704.301200000000012013678941 amount: 0.01000000000000000020816681711721685132943093776702880859375.
+2023-03-15 09:52:44,137 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873964.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1677.2490000000", "order_id": "buy://ETH-USDT/d0ce1d78abae5d5b6dca09c51e", "creation_timestamp": 1678873964.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:44,171 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873964.0, "type": "OrderType.LIMIT", "trading_pair": "ETH-USDT", "amount": "0.0100000", "price": "1704.3010000000", "order_id": "sell://ETH-USDT/86d64cb874caae004b4af03b84", "creation_timestamp": 1678873964.0, "exchange_order_id": null, "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:51,187 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-15 09:52:51,222 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873971.0, "order_id": "buy://ETH-USDT/d0ce1d78abae5d5b6dca09c51e", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 09:52:51,255 - 1 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1678873971.0, "order_id": "sell://ETH-USDT/86d64cb874caae004b4af03b84", "exchange_order_id": null, "event_name": "OrderCancelledEvent", "event_source": "None_PaperTrade"}
+2023-03-15 10:02:22,435 - 1 - hummingbot.core.utils.async_utils - ERROR - Unhandled error in background task: inconsistent use of tabs and spaces in indentation (quickstart_script_2.py, line 24)
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/utils/async_utils.py", line 9, in safe_wrapper
+    return await c
+  File "/home/hummingbot/hummingbot/client/command/start_command.py", line 117, in start_check
+    self._initialize_strategy(self.strategy_name)
+  File "/home/hummingbot/hummingbot/client/command/start_command.py", line 244, in _initialize_strategy
+    self.start_script_strategy()
+  File "/home/hummingbot/hummingbot/client/command/start_command.py", line 195, in start_script_strategy
+    script_strategy = ScriptStrategyBase.load_script_class(self.strategy_file_name)
+  File "/home/hummingbot/hummingbot/strategy/script_strategy_base.py", line 60, in load_script_class
+    script_module = importlib.reload(module)
+  File "/home/hummingbot/miniconda3/envs/hummingbot/lib/python3.8/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hummingbot/scripts/quickstart_script_2.py", line 24
+    price_floor = 1600
+                     ^
+TabError: inconsistent use of tabs and spaces in indentation
+2023-03-15 10:03:09,103 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-15 10:03:18,093 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-15 10:03:24,932 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.
+2023-03-15 10:05:29,660 - 1 - hummingbot.client.hummingbot_application - INFO - stop command initiated.

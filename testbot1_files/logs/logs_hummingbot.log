@@ -1,0 +1,30 @@
+2023-03-15 08:27:06,420 - 1 - hummingbot.core.utils.trading_pair_fetcher - ERROR - Connector k2 failed to retrieve its trading pairs. Trading pairs autocompletion won't work.
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/utils/trading_pair_fetcher.py", line 73, in call_fetch_pairs
+    pairs = await fetch_fn
+  File "/home/hummingbot/hummingbot/connector/exchange/k2/k2_exchange.py", line 867, in all_trading_pairs
+    return await K2APIOrderBookDataSource.fetch_trading_pairs()
+  File "/home/hummingbot/hummingbot/connector/exchange/k2/k2_api_order_book_data_source.py", line 62, in fetch_trading_pairs
+    async with client.get(f"{constants.REST_URL}{constants.GET_TRADING_PAIRS}",
+  File "/home/hummingbot/miniconda3/envs/hummingbot/lib/python3.8/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/hummingbot/miniconda3/envs/hummingbot/lib/python3.8/site-packages/aiohttp/client.py", line 619, in _request
+    break
+  File "/home/hummingbot/miniconda3/envs/hummingbot/lib/python3.8/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2023-03-15 10:09:44,421 - 1 - hummingbot.core.utils.trading_pair_fetcher - ERROR - Connector k2 failed to retrieve its trading pairs. Trading pairs autocompletion won't work.
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/utils/trading_pair_fetcher.py", line 73, in call_fetch_pairs
+    pairs = await fetch_fn
+  File "/home/hummingbot/hummingbot/connector/exchange/k2/k2_exchange.py", line 867, in all_trading_pairs
+    return await K2APIOrderBookDataSource.fetch_trading_pairs()
+  File "/home/hummingbot/hummingbot/connector/exchange/k2/k2_api_order_book_data_source.py", line 62, in fetch_trading_pairs
+    async with client.get(f"{constants.REST_URL}{constants.GET_TRADING_PAIRS}",
+  File "/home/hummingbot/miniconda3/envs/hummingbot/lib/python3.8/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/hummingbot/miniconda3/envs/hummingbot/lib/python3.8/site-packages/aiohttp/client.py", line 619, in _request
+    break
+  File "/home/hummingbot/miniconda3/envs/hummingbot/lib/python3.8/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
